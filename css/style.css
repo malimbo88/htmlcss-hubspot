@@ -1,0 +1,139 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* GLOBAL RULES */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  font-size: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.text {
+  color: #33475b;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col {
+  float: left;
+}
+
+.col-50 {
+  float: left;
+  width: 50%;
+}
+
+.button {
+  background-color: #ff7a59;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: #33475b;
+}
+
+
+/* HEADER */
+header li {
+  display: inline-block;
+}
+
+header li a{
+  padding: 0 15px;
+}
+
+header li a:hover {
+  color: #ff7a59;
+}
+
+header i.fa-chevron-down {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+header i.fa-globe-europe {
+  margin-right: 5px;
+}
+
+/* Log-in Bar Menu */
+header .log-in-bar {
+  background-color: #f5f8fa;
+  border-bottom: 1.4px solid  #33475b;
+  padding: 15px 0;
+}
+
+header .log-in-bar ul {
+  padding: 15px 0;
+}
+
+/* Log-in Bar Menu LEFT col */
+header #log-in-left li:first-child a {
+  padding-left: 0;
+  border-right: 1.4px solid  #33475b;
+}
+
+/* Log-in Bar Menu RIGHT col */
+header #log-in-right ul{
+  text-align: right;
+}
+
+header #log-in-right li:nth-child(2) a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1.2px solid  #ff7a59;
+  border-radius: 5px;
+  color: #ff7a59;
+  margin-right: 15px;
+}
+
+header #log-in-right li:nth-child(2) a:hover {
+  color: #33475b;
+}
+
+header #log-in-right a.search:hover {
+  color: #00bfff;
+}
+
+/* Navigation Bar */
+header nav.menu {
+  background-color: white;
+  padding: 25px 0;
+}
+
+/* Navigation Bar Left Column */
+header nav.menu #nav-left img{
+  height: 30px;
+}
+
+/* Navigation Bar Right Column */
+header nav.menu #nav-right {
+  text-align: right;
+  line-height: 30px;
+}
