@@ -315,7 +315,9 @@ main #hub-offers {
   padding: 5% 10%;
 }
 
-.mark-sale-serv h3, h4, p {
+.mark-sale-serv h3,
+.mark-sale-serv h4,
+.mark-sale-serv h3 {
   text-align: center;
 }
 
@@ -330,7 +332,7 @@ main #hub-offers {
 }
 
 .mark-sale-serv .box-wrapper img {
-  height: 110px;
+  height: 150px;
   margin: 0 auto;
   display:block;
 }
