@@ -20,6 +20,7 @@ ul {
 
 li {
   list-style-type: none;
+  display: inline-block;
 }
 
 .container {
@@ -50,8 +51,7 @@ li {
 .button {
   background-color: #ff7a59;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -61,79 +61,92 @@ li {
 
 
 /* HEADER */
-header li {
-  display: inline-block;
-}
-
-header li a{
-  padding: 0 15px;
-}
-
-header li a:hover {
+header li > a:hover {
   color: #ff7a59;
 }
 
 header i.fa-chevron-down {
-  vertical-align: middle;
   padding-left: 5px;
 }
 
-header i.fa-globe-europe {
-  margin-right: 5px;
+/* Log-in Bar Menu */
+.log-in-bar li .text{
+  vertical-align: middle;
 }
 
-/* Log-in Bar Menu */
-header .log-in-bar {
+.log-in-bar {
   background-color: #f5f8fa;
   border-bottom: 1.4px solid  #33475b;
-  padding: 15px 0;
+  padding: 30px 0;
 }
 
-header .log-in-bar ul {
-  padding: 15px 0;
+.log-in-bar ul {
+line-height: 15px;
 }
 
 /* Log-in Bar Menu LEFT col */
-header #log-in-left li:first-child a {
-  padding-left: 0;
+#log-in-left i.fa-globe-europe {
+  padding-right: 5px;
+}
+
+#log-in-left li {
+  padding: 0 20px;
+}
+
+#log-in-left li:first-child {
   border-right: 1.4px solid  #33475b;
+  padding-left: 0px;
 }
 
 /* Log-in Bar Menu RIGHT col */
-header #log-in-right ul{
+#log-in-right ul {
   text-align: right;
 }
 
-header #log-in-right li:nth-child(2) a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+#log-in-right li:nth-child(2) {
+  padding: 0 20px;
+}
+
+#log-in-right li:nth-child(2) a {
+  padding: 10px;
   border: 1.2px solid  #ff7a59;
   border-radius: 5px;
   color: #ff7a59;
-  margin-right: 15px;
 }
 
-header #log-in-right li:nth-child(2) a:hover {
+#log-in-right li:nth-child(2) a:hover {
   color: #33475b;
+  border-color: #33475b;
 }
 
-header #log-in-right a.search:hover {
+#log-in-right i.fa-search:hover {
   color: #00bfff;
 }
 
 /* Navigation Bar */
-header nav.menu {
+nav.menu {
   background-color: white;
-  padding: 25px 0;
+  padding: 20px 0;
+}
+
+nav.menu ul {
+  line-height: 30px;
+}
+
+nav.menu li {
+  padding: 0 15px;
 }
 
 /* Navigation Bar Left Column */
-header nav.menu #nav-left img{
+#nav-left img{
   height: 30px;
 }
 
 /* Navigation Bar Right Column */
-header nav.menu #nav-right {
+#nav-right {
   text-align: right;
-  line-height: 30px;
+}
+
+#nav-right li:last-child {
+  padding-right: 0px;
 }
