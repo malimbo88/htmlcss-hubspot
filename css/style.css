@@ -56,8 +56,9 @@ li {
 .button {
   background-color: #ff7a59;
   color: white;
-  padding: 10px;
   border-radius: 5px;
+  display: inline-block;
+  padding: 20px 30px;
 }
 
 .button:hover {
@@ -75,6 +76,11 @@ header i.fa-chevron-down {
 }
 
 /* LOG-IN bar menu */
+.log-in-bar a.button {
+  display: inline;
+  padding: 10px;
+}
+
 .log-in-bar li .text{
   vertical-align: middle;
 }
@@ -180,20 +186,12 @@ nav.menu li {
   padding-top: 70px;
 }
 
-#head-title .button {
-  display: inline-block;
-}
-
-#head-title .title {
-  font-size: 45px;
-}
-
 #head-title > * {
   padding-bottom: 25px;
 }
 
-#head-title a.button {
-  padding: 20px 30px;
+#head-title h1.title {
+  font-size: 45px;
 }
 
 #head-title > p {
@@ -204,4 +202,63 @@ nav.menu li {
   font-size: 12px;
   letter-spacing: -0.8px;
   padding-bottom: 0px;
+}
+
+/* MAIN */
+main #hub-offers {
+  background-color: #f5f8fa; 
+}
+
+/*MAIN Section Hub-Offers */
+#hub-offers div.horizontal-wrapper {
+  padding: 5% 15%;
+}
+
+/* MAIN General-Presentation */
+#hub-offers .general-presentation img {
+  height: 200px;
+  margin: 0 auto;
+  display:block;
+}
+
+#hub-offers .general-presentation h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+#hub-offers .general-presentation p {
+  line-height: 1.8;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.hubspot-crm {
+  background-color: green;
+  height: 100px;
+}
+
+section .col {
+  width: 30%;
+  height: 100px;
+}
+
+.services-hub {
+  background-color: cyan;
+}
+
+.sales-hub {
+  background-color: red;
+  margin: 0 5%;
+}
+.marketing-hub {
+  background-color: brown;
 }
