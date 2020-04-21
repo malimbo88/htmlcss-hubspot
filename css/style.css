@@ -83,12 +83,12 @@ li {
 
 .box-title {
   color: #33475b;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .box-sub-title {
   color: #33475b;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: -0.6px;
@@ -103,7 +103,7 @@ li {
   text-transform: capitalize;
 }
 
-.horizontal-box-wrapper {
+.box-wrapper {
   padding: 5% 10%;
 }
 
@@ -119,7 +119,7 @@ header i.fa-chevron-down {
 header li .text,
 header li .button {
   vertical-align: middle;
-  line-height: 0px;
+  line-height: 0;
 }
 
 header li .fas{
@@ -266,7 +266,7 @@ main #hub-offers {
 }
 
 /* MAIN Hubspot-Crm */
-#hub-offers .hubspot-crm .horizontal-box-wrapper > .col:first-child {
+#hub-offers .hubspot-crm .box-wrapper > .col:first-child {
   width: 25%;
   margin-right: 10%;
   text-align: center;
@@ -277,11 +277,11 @@ main #hub-offers {
   margin-bottom: 25px;
 }
 
-#hub-offers .hubspot-crm .horizontal-box-wrapper > .col:nth-child(2) {
+#hub-offers .hubspot-crm .box-wrapper > .col:nth-child(2) {
   width: 65%;
 }
 
-#hub-offers .hubspot-crm .horizontal-box-wrapper > .col:nth-child(2) > *:not(:last-child) {
+#hub-offers .hubspot-crm .box-wrapper > .col:nth-child(2) > *:not(:last-child) {
   padding-bottom: 30px;
 }
 
@@ -289,14 +289,60 @@ main #hub-offers {
   padding-left: 18px;
 }
 
-#hub-offers .horizontal-box-wrapper > .col:nth-child(2) .inline-title > h4 {
+#hub-offers .hubspot-crm .box-wrapper > .col:nth-child(2) .inline-title > h4 {
   width: 40%;
 }
 
-#hub-offers .horizontal-box-wrapper > .col:nth-child(2) .inline-title hr {
+#hub-offers .hubspot-crm .box-wrapper > .col:nth-child(2) .inline-title hr {
   width: 60%;
   margin-top: 10px;
-  height:2px;
-  border-width:0;
-  background-color:#33475b;
+  border:1.2px solid lightgrey;
+}
+
+/* MAIN Section Columns */
+.mark-sale-serv {
+  padding: 50px 0;
+}
+.mark-sale-serv ul.checked + div {
+  text-align: center;
+}
+
+.mark-sale-serv .box-wrapper > *:not(:last-child):not(hr) {
+  padding-bottom: 40px;
+}
+
+.mark-sale-serv .box-wrapper {
+  padding: 5% 10%;
+}
+
+.mark-sale-serv h3, h4, p {
+  text-align: center;
+}
+
+.mark-sale-serv hr {
+  border:1.2px solid lightgrey;
+  margin: 30px 0;
+}
+
+.mark-sale-serv li {
+  display:block;
+  line-height: 1.2;
+}
+
+.mark-sale-serv .box-wrapper img {
+  height: 110px;
+  margin: 0 auto;
+  display:block;
+}
+
+.mark-sale-serv .box-wrapper < .col {
+  width: 30%;
+}
+
+.marketing-hub, .sales-hub, .services-hub {
+  width: 30%;
+}
+
+.sales-hub {
+  margin: 0 5%;
 }
