@@ -33,6 +33,11 @@ li {
   font-size: 14px;
 }
 
+.title {
+  color: #33475b;
+  font-weight: bold;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -69,14 +74,14 @@ header i.fa-chevron-down {
   padding-left: 5px;
 }
 
-/* Log-in Bar Menu */
+/* LOG-IN bar menu */
 .log-in-bar li .text{
   vertical-align: middle;
 }
 
 .log-in-bar {
   background-color: #f5f8fa;
-  border-bottom: 1.4px solid  #33475b;
+  border-bottom: 2px solid  #33475b;
   padding: 30px 0;
 }
 
@@ -84,7 +89,7 @@ header i.fa-chevron-down {
 line-height: 15px;
 }
 
-/* Log-in Bar Menu LEFT col */
+/* LOG-IN bar menu Left col */
 #log-in-left i.fa-globe-europe {
   padding-right: 5px;
 }
@@ -98,7 +103,7 @@ line-height: 15px;
   padding-left: 0px;
 }
 
-/* Log-in Bar Menu RIGHT col */
+/* LOG-IN bar menu Right col */
 #log-in-right ul {
   text-align: right;
 }
@@ -123,7 +128,7 @@ line-height: 15px;
   color: #00bfff;
 }
 
-/* Navigation Bar */
+/* Navigation bar */
 nav.menu {
   background-color: white;
   padding: 20px 0;
@@ -137,16 +142,66 @@ nav.menu li {
   padding: 0 15px;
 }
 
-/* Navigation Bar Left Column */
+/* Navigation bar Left column */
 #nav-left img{
   height: 30px;
 }
 
-/* Navigation Bar Right Column */
+/* Navigation bar Right column */
 #nav-right {
   text-align: right;
 }
 
 #nav-right li:last-child {
   padding-right: 0px;
+}
+
+/* HEADER Image */
+.header-image {
+  height: 510px;
+  background-color: #fff4ed;
+  background-image: url("../img/jumbotron.png");
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+
+/* SUB-HEADER Image */
+.sub-header-image {
+  background-color: #a6e8e0;
+  border-top: 1.8px solid  #33475b;
+  border-bottom: 2px solid #33475b;
+  height: 75px;
+}
+
+/* HEADER Head-Title */
+#head-title {
+  width: 50%;
+  padding-top: 70px;
+}
+
+#head-title .button {
+  display: inline-block;
+}
+
+#head-title .title {
+  font-size: 45px;
+}
+
+#head-title > * {
+  padding-bottom: 25px;
+}
+
+#head-title a.button {
+  padding: 20px 30px;
+}
+
+#head-title > p {
+  line-height: 1.8;
+}
+
+#head-title > p:last-child {
+  font-size: 12px;
+  letter-spacing: -0.8px;
+  padding-bottom: 0px;
 }
