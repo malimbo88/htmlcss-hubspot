@@ -31,6 +31,13 @@ li {
   color: #33475b;
   font-weight: 600;
   font-size: 14px;
+  line-height: 1.8;
+}
+
+.fas {
+  color: #33475b;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .title {
@@ -55,16 +62,50 @@ li {
 
 .button {
   background-color: #ff7a59;
-  color: white;
   border-radius: 5px;
   display: inline-block;
   padding: 20px 30px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .button:hover {
   color: #33475b;
 }
 
+.box {
+  background-color: white;
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0, .06);
+  border-radius: 8px;
+}
+
+.box-title {
+  color: #33475b;
+  font-size: 25px;
+}
+
+.box-sub-title {
+  color: #33475b;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+}
+
+.checked i.fas {
+  color: #ff7a59;
+  padding-right: 12px;
+}
+
+.checked li {
+  text-transform: capitalize;
+}
+
+.horizontal-box-wrapper {
+  padding: 5% 10%;
+}
 
 /* HEADER */
 header li > a:hover {
@@ -75,18 +116,24 @@ header i.fa-chevron-down {
   padding-left: 5px;
 }
 
+header li .text,
+header li .button {
+  vertical-align: middle;
+  line-height: 0px;
+}
+
+header li .fas{
+  vertical-align: middle;
+}
+
 /* LOG-IN bar menu */
 .log-in-bar a.button {
   display: inline;
   padding: 10px;
 }
 
-.log-in-bar li .text{
-  vertical-align: middle;
-}
-
 .log-in-bar {
-  background-color: #f5f8fa;
+  background-color: #f4f9fd;
   border-bottom: 2px solid  #33475b;
   padding: 30px 0;
 }
@@ -136,7 +183,6 @@ line-height: 15px;
 
 /* Navigation bar */
 nav.menu {
-  background-color: white;
   padding: 20px 0;
 }
 
@@ -144,7 +190,7 @@ nav.menu ul {
   line-height: 30px;
 }
 
-nav.menu li {
+nav.menu li:not(:last-child) {
   padding: 0 15px;
 }
 
@@ -156,10 +202,6 @@ nav.menu li {
 /* Navigation bar Right column */
 #nav-right {
   text-align: right;
-}
-
-#nav-right li:last-child {
-  padding-right: 0px;
 }
 
 /* HEADER Image */
@@ -194,10 +236,6 @@ nav.menu li {
   font-size: 45px;
 }
 
-#head-title > p {
-  line-height: 1.8;
-}
-
 #head-title > p:last-child {
   font-size: 12px;
   letter-spacing: -0.8px;
@@ -206,14 +244,10 @@ nav.menu li {
 
 /* MAIN */
 main #hub-offers {
-  background-color: #f5f8fa; 
+  background-color: #f4f9fd;
 }
 
-/*MAIN Section Hub-Offers */
-#hub-offers div.horizontal-wrapper {
-  padding: 5% 15%;
-}
-
+/* MAIN Section Hub-Offers */
 /* MAIN General-Presentation */
 #hub-offers .general-presentation img {
   height: 200px;
@@ -222,43 +256,47 @@ main #hub-offers {
 }
 
 #hub-offers .general-presentation h2 {
-  text-align: center;
+  padding-bottom: 20px;
   font-size: 35px;
-  padding-bottom: 25px;
 }
 
-#hub-offers .general-presentation p {
-  line-height: 1.8;
+#hub-offers .general-presentation p,
+#hub-offers .general-presentation h2 {
   text-align: center;
 }
 
+/* MAIN Hubspot-Crm */
+#hub-offers .hubspot-crm .horizontal-box-wrapper > .col:first-child {
+  width: 25%;
+  margin-right: 10%;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
-.hubspot-crm {
-  background-color: green;
+#hub-offers .hubspot-crm .col:first-child img {
   height: 100px;
+  margin-bottom: 25px;
 }
 
-section .col {
-  width: 30%;
-  height: 100px;
+#hub-offers .hubspot-crm .horizontal-box-wrapper > .col:nth-child(2) {
+  width: 65%;
 }
 
-.services-hub {
-  background-color: cyan;
+#hub-offers .hubspot-crm .horizontal-box-wrapper > .col:nth-child(2) > *:not(:last-child) {
+  padding-bottom: 30px;
 }
 
-.sales-hub {
-  background-color: red;
-  margin: 0 5%;
+#hub-offers .hubspot-crm .checked > li:not(:first-child) {
+  padding-left: 18px;
 }
-.marketing-hub {
-  background-color: brown;
+
+#hub-offers .horizontal-box-wrapper > .col:nth-child(2) .inline-title > h4 {
+  width: 40%;
+}
+
+#hub-offers .horizontal-box-wrapper > .col:nth-child(2) .inline-title hr {
+  width: 60%;
+  margin-top: 10px;
+  height:2px;
+  border-width:0;
+  background-color:#33475b;
 }
