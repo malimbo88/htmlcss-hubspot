@@ -37,7 +37,7 @@ li {
 .text-white {
   color: #bfbfbf;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 2.5;
   padding-bottom: 4px;
   letter-spacing: -0.5px;
@@ -51,7 +51,7 @@ a.text-white:hover {
 .text-white-bold {
   color: #e6e6e6;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: -0.5px;
   text-transform: capitalize;
 }
@@ -537,7 +537,7 @@ footer > .container > .footer-menu > ul.col > li {
 }
 
 footer > .container > .footer-menu > ul.col > li:first-child {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 footer .footer-menu > ul.col {
@@ -548,9 +548,9 @@ footer .footer-menu > ul.col {
 footer .footer-menu > ul.col:last-child > li:last-child a.white-button {
   padding: 10px 10px;
   background-color: #f2f2f2;
-  color: #999999;
+  color: #737373;
   font-size: 12px;
-  margin-top: 10px;
+  margin-top: 12px;
   text-transform: capitalize;
   font-weight: 600;
   border-radius: 5px;
@@ -579,4 +579,38 @@ footer ul.social > li > a{
 
 footer ul.social > li > a > i.fas {
   font-size: 15px;
+}
+
+/* FOOTER Languages */
+footer ul.languages {
+  text-align: center;
+  padding: 60px 0px 20px 0px;
+}
+
+footer ul.languages li {
+  padding-right: 20px;
+}
+
+/* FOOTER Credits */
+footer hr {
+  background-color: #bfbfbf;
+  border-style: none;
+  height: 1px;
+  margin-bottom: 40px;
+}
+
+footer .credits .col-50:last-child {
+text-align: right;
+}
+
+footer .credits > .col-50:first-child p {
+  font-size: 16px;
+  color: #e6e6e6;
+  line-height: 1.8;
+}
+
+footer .credits > .col-50:last-child * {
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 0px;
 }
