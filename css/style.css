@@ -75,39 +75,7 @@ li {
   color: #33475b;
 }
 
-.box {
-  background-color: white;
-  box-shadow: 0px 0px 4px 2px rgba(0,0,0, .06);
-  border-radius: 8px;
-}
-
-.box-title {
-  color: #33475b;
-  font-size: 22px;
-}
-
-.box-sub-title {
-  color: #33475b;
-  font-size: 18px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: -0.6px;
-}
-
-.checked i.fas {
-  color: #ff7a59;
-  padding-right: 12px;
-}
-
-.checked li {
-  text-transform: capitalize;
-}
-
-.box-wrapper {
-  padding: 5% 10%;
-}
-
-/* HEADER */
+/* HEADER GENERAL */
 header li > a:hover {
   color: #ff7a59;
 }
@@ -181,7 +149,7 @@ line-height: 15px;
   color: #00bfff;
 }
 
-/* Navigation bar */
+/* Navigation bar GENERAL */
 nav.menu {
   padding: 20px 0;
 }
@@ -247,8 +215,40 @@ main #hub-offers {
   background-color: #f4f9fd;
 }
 
-/* MAIN Section Hub-Offers */
-/* MAIN General-Presentation */
+/* MAIN SECTION Hub-Offers GENERAL */
+main #hub-offers .checked i.fas {
+  color: #ff7a59;
+  padding-right: 12px;
+}
+
+main #hub-offers .checked li {
+  text-transform: capitalize;
+}
+
+main #hub-offers .box-wrapper {
+  padding: 5% 10%;
+}
+
+main #hub-offers .box-style {
+  background-color: white;
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0, .06);
+  border-radius: 8px;
+}
+
+main #hub-offers .box-title {
+  color: #33475b;
+  font-size: 22px;
+}
+
+main #hub-offers .box-sub-title {
+  color: #33475b;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+}
+
+/* General-Presentation */
 #hub-offers .general-presentation img {
   height: 200px;
   margin: 0 auto;
@@ -265,7 +265,7 @@ main #hub-offers {
   text-align: center;
 }
 
-/* MAIN Hubspot-Crm */
+/* Hubspot-Crm */
 #hub-offers .hubspot-crm .box-wrapper > .col:first-child {
   width: 25%;
   margin-right: 10%;
@@ -299,52 +299,102 @@ main #hub-offers {
   border:1.2px solid lightgrey;
 }
 
-/* MAIN Section Columns */
-.mark-sale-serv {
+/* Columns Area Marketing, Sales & Services */
+#hub-offers .mark-sale-serv > .col {
+  width: 30%;
+}
+
+#hub-offers .mark-sale-serv > .col:nth-child(2) {
+  margin: 0 5%;
+}
+
+#hub-offers .mark-sale-serv {
   padding: 50px 0;
 }
-.mark-sale-serv ul.checked + div {
+
+#hub-offers .mark-sale-serv h3,
+#hub-offers .mark-sale-serv h4,
+#hub-offers .mark-sale-serv h3 {
   text-align: center;
 }
 
-.mark-sale-serv .box-wrapper > *:not(:last-child):not(hr) {
-  padding-bottom: 40px;
-}
-
-.mark-sale-serv .box-wrapper {
-  padding: 5% 10%;
-}
-
-.mark-sale-serv h3,
-.mark-sale-serv h4,
-.mark-sale-serv h3 {
-  text-align: center;
-}
-
-.mark-sale-serv hr {
+#hub-offers .mark-sale-serv .box-style > .box-wrapper > hr {
   border:1.2px solid lightgrey;
   margin: 30px 0;
 }
 
-.mark-sale-serv li {
-  display:block;
-  line-height: 1.2;
-}
-
-.mark-sale-serv .box-wrapper img {
+#hub-offers .mark-sale-serv .box-style > .box-wrapper > img {
   height: 150px;
   margin: 0 auto;
   display:block;
 }
 
-.mark-sale-serv .box-wrapper < .col {
-  width: 30%;
+#hub-offers .mark-sale-serv ul.checked li {
+  display:block;
+  line-height: 1.2;
 }
 
-.marketing-hub, .sales-hub, .services-hub {
-  width: 30%;
+#hub-offers .mark-sale-serv ul.checked + div {
+  text-align: center;
 }
 
-.sales-hub {
-  margin: 0 5%;
+#hub-offers .mark-sale-serv .box-style > .box-wrapper > *:not(:last-child):not(hr) {
+  padding-bottom: 40px;
+}
+
+/* MAIN SECTION Community-area */
+#community-area {
+  background-color: #00b6ad;
+}
+
+#community-area .container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#community-area p.text ,
+#community-area h2.title {
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#community-area h2.title {
+  font-size: 30px;
+}
+
+/* Community-table */
+#community-area .community-table .box-table {
+  padding: 30px 0;
+}
+
+#community-area .community-table .box-table > img {
+  height: 35px;
+}
+
+#community-area .community-table > ul > li:not(:last-child) {
+  border-right: 1.2px solid white;
+}
+
+#community-area .community-table > ul:not(:last-child) > li {
+  border-bottom: 1.2px solid white;
+}
+
+#community-area .community-table > ul > li {
+  width: 25%;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+#community-area .community-table > ul > li > div {
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 4px;
+}
+
+#community-area .community-table ul > li > *:not(:last-child) {
+  margin-bottom: 15px;
 }
