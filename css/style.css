@@ -370,6 +370,7 @@ main #hub-offers .box-sub-title {
 
 #community-area .community-table .box-table > img {
   height: 35px;
+  width: 30%;
 }
 
 #community-area .community-table > ul > li:not(:last-child) {
@@ -404,4 +405,69 @@ main #hub-offers .box-sub-title {
 
 #community-area .community-table ul > li > *:not(:last-child) {
   margin-bottom: 15px;
+}
+
+/* MAIN SECTION Partners-Area */
+#partners-area .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* UP-LINE Partners-Area */
+#partners-area .up-line > div:first-child {
+  width: 15%;
+}
+
+#partners-area .up-line > div:last-child {
+  width: 85%;
+}
+
+/* UP-LINE Title & Paragraph */
+#partners-area .up-line h3.title {
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+/* Loghi Partners */
+#partners-area .loghi {
+  padding:0 250px;
+}
+#partners-area .loghi li.col {
+  width: 25%;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+}
+
+/* Top-Line Loghi */
+.top-line-loghi > li:nth-child(1) {
+  background-image: url("../img/Atlassian-horizontal-blue.webp");
+}
+
+.top-line-loghi > li:nth-child(2) {
+  background-image: url("../img/doordash_owler_20181011_194113_original@2x.webp");
+}
+
+.top-line-loghi > li:nth-child(3) {
+  background-image: url("../img/g2crowd-logo.webp");
+}
+
+.top-line-loghi > li:nth-child(4) {
+  background-image: url("../img/purple-logo.webp");
+}
+
+/* Bottom-Line Loghi */
+.bottom-line-loghi > li:nth-child(1) {
+  background-image: url("../img/Subaru_Logo_v2_186x63@2x.webp");
+}
+
+.bottom-line-loghi > li:nth-child(2) {
+  background-image: url("../img/Wistia_logo.webp");
+}
+
+.bottom-line-loghi > li:nth-child(3) {
+  background-image: url("../img/Classpass-logo.webp");
+}
+
+.bottom-line-loghi > li:nth-child(4) {
+  background-image: url("../img/VMware_logo_gry_RGB_300dpi.webp");
 }
