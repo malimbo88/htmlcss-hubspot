@@ -392,7 +392,14 @@ main #hub-offers .box-sub-title {
 #community-area .community-table > ul > li > div {
   font-size: 40px;
   font-weight: bolder;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#community-area .community-table > ul > li > div > span{
+  font-size: 35px;
+  font-weight: 400;
+  padding-left: 5px;
 }
 
 #community-area .community-table ul > li > *:not(:last-child) {
