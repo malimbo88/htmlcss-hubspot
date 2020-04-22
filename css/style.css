@@ -34,6 +34,28 @@ li {
   line-height: 1.8;
 }
 
+.text-white {
+  color: #bfbfbf;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.5;
+  padding-bottom: 4px;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
+}
+
+a.text-white:hover {
+  color: white;
+}
+
+.text-white-bold {
+  color: #e6e6e6;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
+}
+
 .fas {
   color: #33475b;
   font-weight: 600;
@@ -155,7 +177,7 @@ nav.menu {
 }
 
 nav.menu ul {
-  line-height: 30px;
+  padding: 10.5px 0;
 }
 
 nav.menu li:not(:last-child) {
@@ -211,11 +233,11 @@ nav.menu li:not(:last-child) {
 }
 
 /* MAIN */
+/* MAIN SECTION Hub-Offers GENERAL */
 main #hub-offers {
   background-color: #f4f9fd;
 }
 
-/* MAIN SECTION Hub-Offers GENERAL */
 main #hub-offers .checked i.fas {
   color: #ff7a59;
   padding-right: 12px;
@@ -226,7 +248,7 @@ main #hub-offers .checked li {
 }
 
 main #hub-offers .box-wrapper {
-  padding: 5% 10%;
+  padding: 8% 10%;
 }
 
 main #hub-offers .box-style {
@@ -397,7 +419,7 @@ main #hub-offers .box-sub-title {
   text-transform: uppercase;
 }
 
-#community-area .community-table > ul > li > div > span{
+#community-area .community-table > ul > li > div > span {
   font-size: 35px;
   font-weight: 400;
   padding-left: 5px;
@@ -412,13 +434,17 @@ main #hub-offers .box-sub-title {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 /* UP-LINE Partners-Area */
 #partners-area .up-line > div:first-child {
-  width: 15%;
+  width: 30%;
+  padding: 0 80px;
+  text-align: center;
 }
 
 #partners-area .up-line > div:last-child {
-  width: 85%;
+  width: 70%;
+  padding: 0px 100px;
 }
 
 /* UP-LINE Title & Paragraph */
@@ -426,15 +452,13 @@ main #hub-offers .box-sub-title {
   font-size: 45px;
   padding-bottom: 30px;
 }
+
 /* Loghi Partners */
-#partners-area .loghi {
-  padding:20px 50px 0 300px;
-}
 #partners-area .loghi li.col {
   width: 25%;
   height: 60px;
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 120px;
   background-position: center;
 }
 
@@ -478,7 +502,7 @@ main #hub-offers .box-sub-title {
 }
 
 #partners-area .sub-line > .col-50:first-child {
-  padding-top: 100px;
+  padding: 60px 50px 0px 0px;
 }
 
 #partners-area .sub-line > .col-50:first-child > *:not(:last-child) {
@@ -499,4 +523,60 @@ main #hub-offers .box-sub-title {
 
 #partners-area .sub-line > .col-50 img:only-child {
   height: 400px;
+}
+
+/* FOOTER */
+footer {
+  background-color:  #33475b;
+  padding: 40px 0;
+}
+
+/* FOOTER menu */
+footer > .container > .footer-menu > ul.col > li {
+  display:block;
+}
+
+footer > .container > .footer-menu > ul.col > li:first-child {
+  padding-bottom: 15px;
+}
+
+footer .footer-menu > ul.col {
+  width: 25%;
+}
+
+/* FOOTER Menu Button */
+footer .footer-menu > ul.col:last-child > li:last-child a.white-button {
+  padding: 10px 10px;
+  background-color: #f2f2f2;
+  color: #999999;
+  font-size: 12px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+footer .footer-menu > ul.col:last-child > li:last-child a.white-button:hover{
+  color: #33475b;
+}
+
+/* Sub-List Social*/
+footer ul.social {
+  padding-top: 15px;
+}
+
+footer ul.social > li.col {
+  width: 12.5%;
+  text-align: center;
+}
+
+footer ul.social > li > a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+footer ul.social > li > a > i.fas {
+  font-size: 15px;
 }
