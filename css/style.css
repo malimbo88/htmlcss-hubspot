@@ -428,7 +428,7 @@ main #hub-offers .box-sub-title {
 }
 /* Loghi Partners */
 #partners-area .loghi {
-  padding:0 250px;
+  padding:20px 50px 0 300px;
 }
 #partners-area .loghi li.col {
   width: 25%;
@@ -439,35 +439,64 @@ main #hub-offers .box-sub-title {
 }
 
 /* Top-Line Loghi */
-.top-line-loghi > li:nth-child(1) {
+#partners-area .top-line-loghi > li:nth-child(1) {
   background-image: url("../img/Atlassian-horizontal-blue.webp");
 }
 
-.top-line-loghi > li:nth-child(2) {
+#partners-area .top-line-loghi > li:nth-child(2) {
   background-image: url("../img/doordash_owler_20181011_194113_original@2x.webp");
 }
 
-.top-line-loghi > li:nth-child(3) {
+#partners-area .top-line-loghi > li:nth-child(3) {
   background-image: url("../img/g2crowd-logo.webp");
 }
 
-.top-line-loghi > li:nth-child(4) {
+#partners-area .top-line-loghi > li:nth-child(4) {
   background-image: url("../img/purple-logo.webp");
 }
 
 /* Bottom-Line Loghi */
-.bottom-line-loghi > li:nth-child(1) {
+#partners-area .bottom-line-loghi > li:nth-child(1) {
   background-image: url("../img/Subaru_Logo_v2_186x63@2x.webp");
 }
 
-.bottom-line-loghi > li:nth-child(2) {
+#partners-area .bottom-line-loghi > li:nth-child(2) {
   background-image: url("../img/Wistia_logo.webp");
 }
 
-.bottom-line-loghi > li:nth-child(3) {
+#partners-area .bottom-line-loghi > li:nth-child(3) {
   background-image: url("../img/Classpass-logo.webp");
 }
 
-.bottom-line-loghi > li:nth-child(4) {
+#partners-area .bottom-line-loghi > li:nth-child(4) {
   background-image: url("../img/VMware_logo_gry_RGB_300dpi.webp");
+}
+
+/* SUB-LINE Partners-Area */
+#partners-area .sub-line {
+  padding-top: 50px;
+}
+
+#partners-area .sub-line > .col-50:first-child {
+  padding-top: 100px;
+}
+
+#partners-area .sub-line > .col-50:first-child > *:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+#partners-area .sub-line > .col-50 > p:last-child {
+  font-size: 12px;
+}
+
+#partners-area .sub-line > .col-50:last-child {
+  text-align: right;
+}
+
+#partners-area .sub-line > .col-50 > h2 {
+  font-size: 35px;
+}
+
+#partners-area .sub-line > .col-50 img:only-child {
+  height: 400px;
 }
